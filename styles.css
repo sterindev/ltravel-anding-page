@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fdfdfd;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+}
+
+.logo {
+ width: 101px;
+height: 24px;
+top: 45px;
+left: 375px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Volkhov;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.006em;
+text-align: left;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 386px;
+height: 24px;
+top: 45px;
+left: 741px;
+gap: 20px;
+opacity: 0px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    width: 44px;
+height: 24px;
+top: 45px;
+left: 1285px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF5722;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth-buttons .login {
+    background-color: transparent;
+    color: #FF5722;
+    border: 2px solid #FF5722;
+    margin-right: 10px;
+    width: 44px;
+height: 24px;
+top: 45px;
+left: 1285px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero-content span {
+    color: #FF5722;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+}
+
+.discover-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF5722;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img {
+    width: 450px;
+    height: 530px;
+    top: 169px;
+    left: 1070px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.awards {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.award-item {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.award-icon {
+    font-size: 24px;
+    color: #FF5722;
+}
+
+.award-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.explore {
+    background-color: #fdfdfd;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.explore-form {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.explore-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF5722;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* things yo need  */
+.things-to-do {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.things-to-do h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.things-to-do h2 span {
+    color: #ff6a00;
+}
+
+.things-to-do p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .icon {
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* 
+excluive deals and discounts */
+
+.deals-discounts {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.deals-discounts h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.deals-discounts h2 span {
+    color: #ff6a00;
+}
+
+.deals-discounts p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.deals-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.deal-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 250px;
+}
+
+.deal-card:hover {
+    transform: translateY(-10px);
+}
+
+.deal-card img {
+    width: 100%;
+    height: auto;
+}
+
+.deal-content {
+    padding: 20px;
+}
+
+.deal-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.deal-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.new-price {
+    color: #ff6a00;
+    font-size: 18px;
+}
+
+.book-now {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+    background-color: #e65a00;
+}
+
+.navigation {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-button {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #e65a00;
+}
+
+
+/* best vacation :plan */
+
+.best-container {
+    text-align: center;
+    width: 80%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ff7e33;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.best-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 15px;
+    text-align: left;
+}
+
+.best-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.best-card h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0;
+}
+
+.best-card .duration, .best-card .price, .best-card .rating {
+    font-size: 1em;
+    color: #777;
+    margin: 5px 0;
+}
+
+.card .price {
+    color: #ff7e33;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    margin-top: 20px;
+}
+
+.nav-btn {
+    background-color: #ff7e33;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: #ff9b56;
+}
+
+/* what people says about us  */
+
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #f5f7fa;
+}
+
+.text-section {
+    width: 40%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ff7e33;
+}
+
+.text-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.nav-buttons {
+    margin-top: 20px;
+}
+
+.nav-btn {
+    background-color: #ff7e33;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: #ff9b56;
+}
+
+.testimonial-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-content {
+    text-align: left;
+}
+
+.testimonial-content p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-content h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.testimonial-content .location {
+    font-size: 1em;
+    color: #777;
+}
+
+
+/* blog section */
+.blog-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.blog-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.blog-section .highlight {
+    color: #f58c20;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: left;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-card h3 {
+    font-size: 18px;
+    margin: 15px 15px 10px;
+}
+
+.blog-card p {
+    font-size: 14px;
+    color: #888;
+    margin: 0 15px 15px;
+}
+
+
+/* footer */
+
+  .subscribe {
+    background-color: #e1640b; 
+    text-align: center;
+height: 124px;
+top: 5057px;
+left: 649px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Volkhov;
+font-size: 48px;
+font-weight: 700;
+line-height: 61.92px;
+text-align: center;
+
+
+  }
+  
+  .company-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .company-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .company-info li {
+    margin-bottom: 10px;
+  }
+  
+  .company-info a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
